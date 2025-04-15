@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://plus.unsplash.com/premium_photo-1683309565422-77818a287060?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Audiowide", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    height: 10rem;
+    margin: auto;
+    background-color: rgba(127, 255, 212, 0.438);
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding-right: 500px;
+
+}
+
+.nav-items {
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+    background-color: rgb(169, 122, 122);
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+    padding: 2rem;
+    font-size: 17px;
+}
+
+.nav-items a:hover {
+    background-color: #06712b;
+
+}
+
+.banner {
+    margin-top: 1rem;
+    padding: 30px;
+    border: 5px solid yellow;
+    border-radius: 10px;
+    color: rgba(20, 3, 3, 0.973);
+}
+
+#btn {
+    padding-top: 30px;
+
+}
+
+#btn button {
+    background: #0d8b04;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+#btn button:hover {
+    color: beige;
+}
+
+.prj-details {
+    padding: 30px;
+    margin: auto;
+}
+
+.prj-items {
+    padding: 30px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+
+}
+
+button {
+    padding: 10px;
+    color: rgb(195, 17, 17);
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+
+
+button:hover {
+    background: red;
+    color: #0d8b04;
+}
+
+.ser-details {
+    padding: 30px;
+    color: blue;
+    font-family: "Trirong", serif;
+}
+
+.ser-items {
+    padding: 30px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    color: blue;
+    font-family: "Trirong", serif;
+}
+
+.btn-1 button {
+    padding-top: 1rem;
+    background-color: #0d8b04;
+    border: 1px solid red;
+    color: black;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgba(232, 144, 2, 0.605);
+    color: yellow;
+}
+
+
+h3 {
+    margin-top: 2rem;
+    padding-left: 30px;
+}
+
+.container {
+    background-color: seashell;
+    border: 2px solid black;
+}
+
+.contact-details {
+    display: grid;
+    grid-template-columns: auto;
+    padding-top: 1rem;
+    padding-left: 30px;
+    padding-right: 70rem;
+}
+
+.input-field {
+    height: 30px;
+    margin-bottom: 1rem;
+    border: 1px solid #777;
+    border-radius: 10px;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+
+footer a {
+    color: white;
+}

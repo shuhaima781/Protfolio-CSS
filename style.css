@@ -107,7 +107,7 @@ span{
     margin-left: 2rem;
 }
 .project-container {
-    margin-left:12rem;
+    margin-left:8.5rem;
     padding-left: 3rem;
     display: flex;
     justify-content: center;
@@ -202,7 +202,7 @@ footer a {
     section{
         padding:10rem 3%;
     }
-    }
+}
 
 
 @media screen and (max-width: 768px) {
